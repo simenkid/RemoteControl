@@ -23,7 +23,6 @@ This module have 5 buttons, it can be assigned for purposes. Ex: control light o
 
 <a name="Pinouts"></a>
 ## 2. Pinouts  
-
 * Power Pins:  
   * Vcc  
   * GND  
