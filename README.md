@@ -1,3 +1,14 @@
+[TODO]
+1. Overview detail descriptions
+2. Pinouts detail descriptions
+3. Assembly module Picture & descriptions
+4. How to use BLE shepherd(freebird) detail descriptions
+5. Electrical Specifications test value
+6. upload Schematic picture
+
+
+
+
 # RemoteControl 
 ---  
 ![RemoteControl ](http://imgur.com/blQHcna "RemoteControl ")  
@@ -37,9 +48,9 @@ This module have 5 buttons, it can be assigned for purposes. Ex: control light o
 <a name="Assembly"></a>
 ## 3. Assembly  
 
-#### USB 5V Power moudle  
+#### USB 5V Power module  
 #### BLE module  
-#### Smart Power Relay module  
+#### RemoteControl module  
 
 <a name="How to use"></a>
 ## 4. How to use  
