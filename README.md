@@ -1,80 +1,44 @@
-[TODO]
-1. Overview detail descriptions
-2. Pinouts detail descriptions
-3. Assembly module Picture & descriptions
-4. How to use BLE shepherd(freebird) detail descriptions
-5. Electrical Specifications test value
-6. upload Schematic picture
-
-
-
-
 # RemoteControl 
 ---  
-![RemoteControl ](http://imgur.com/blQHcna "RemoteControl ")  
 
 ## Guide Content  
 
-1. [Overiew](#Overiew)  
-2. [Pinouts](#Pinouts)  
-3. [Assembly](#Assembly)  
-4. [How to use](#How to use)  
-5. [Electrical Specifications](#Electrical Specifications)  
-6. [Downloads](#Downloads)  
+1. [Introduction](#Introduction)  
+2. [Hardware Overview](#Hardware Overview)  
+3. [Usage](#Usage)  
+4. [Reference](#Reference)  
 
+<a name="Introduction"></a>
+## 1. Introduction  
 
-<a name="Overiew"></a>
-## 1. Overview  
+Sivann的RemoteControl模組上面有5個按鍵，供電後按鍵一般狀態為高電位，當按下按鍵後為低電位。  
+#### Sivann模組疊合  
+Sivann除了感測模組外還有供電模組及無線模組，使用者可以將模組疊合使用，更為方便，相關介紹在sivann模組疊合介紹。  
+#### Features  
+ * 有5個按鍵可使用。  
 
-This module have 5 buttons, it can be assigned for purposes. Ex: control light on/off, to send a message, etc. Buttons's function are assigned by programmer and this functions will be transmit by BLE module.  
+<a name="Hardware Overview"></a>
+## 2. Hardware Overview  
 
-* Features
-  * 5 buttons can be assigned for different purposes. Ex: Up/Down, Left/Right, Ok  
-  * Remote control relay, buzzer, smart light bulb, or smart plug etc.
+![RemoteControl](http://i.imgur.com/vEMSWk2.png "RemoteControl")
 
-<a name="Pinouts"></a>
-## 2. Pinouts  
-
+### Pinouts  
 * Power Pins:  
-  * Vcc  
-  * GND  
+  * VCC(3.3V) – 供電給個按鍵。  
+  * GND – VCC的地。  
 * Button  
-  * Right  
-  * Left  
-  * Up  
-  * Down  
-  * OK  
+  * Right – 右按鍵。  
+  * Left – 左按鍵。  
+  * Up – 上按鍵。  
+  * Down – 下按鍵。  
+  * OK – 中心按鍵。  
 
-<a name="Assembly"></a>
-## 3. Assembly  
+<a name="Usage"></a>
+## 3. Usage  
+供電Vcc並接好GND。  
 
-#### USB 5V Power module  
-#### BLE module  
-#### RemoteControl module  
-
-<a name="How to use"></a>
-## 4. How to use  
-
-* BLE Dongle + BLE shepherd(freebird)  
-* How to use BLE shepherd(freebird)  
-
-<a name="Electrical Specifications"></a>
-## 5. Electrical Specifications   
-
-| Parameter         | Absolute Maximum Rating  | Uints  
-|-------------------|--------------------------|-------------  
-| Power             |                          |  W  
-| Operating current |                          |  A  
-| Vcc to Gound      |                          |  V  
-| 5V to Ground      |                          |  V  
-| Button_up         |                          |  V  
-| Button_down       |                          |  V  
-| Button_right      |                          |  V  
-| Button_left       |                          |  V  
-| Button_ok         |                          |  V  
-
-<a name="Downloads"></a>
-## 6. Downloads  
+<a name="Reference"></a>
+## 4. Reference   
 
 Schematic  
 
